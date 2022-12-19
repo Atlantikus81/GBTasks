@@ -5,7 +5,7 @@ int a = int.Parse(ReadLine()!);
 WriteLine("Введите второе число: ");
 int b = int.Parse(ReadLine()!);
 WriteLine("Введите третье число: ");
-int c = int.Parse(ReadLine());
+int c = int.Parse(ReadLine()!);
 
 int max = a;
 
