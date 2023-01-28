@@ -50,7 +50,7 @@ int[,] GetMatrixArray(int rows, int columns, int minValue, int maxValue)
     {
         for (int j = 0; j < columns; j++)
         {
-            resultArray[i, j] = rnd.Next(minValue, maxValue);
+            resultArray[i, j] = rnd.Next(minValue, maxValue + 1);
         }
     }
     return resultArray;
